@@ -1,10 +1,34 @@
-table, th, td {
+.styled-table {
     border: 1px solid black;
     border-radius: 20px;
     text-align: center;
     padding: 30px;
 }
 
+.styled-table th,
+.styled-table td {
+    border-collapse: collapse;
+    border-radius: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+}
+
+.bigimmagine {
+    width: 250px;
+}
+
 img {
     width: 100px;
+}
+
+h1 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
 }
